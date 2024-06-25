@@ -40,6 +40,7 @@ export default {
     const groups = [
       { label: 'Партнер', value: 'partner' },
       { label: 'Прохожий', value: 'visitor' },
+      { label: 'Клиент', value: 'client' },
     ];
 
     watch(() => props.visitorData, (newVal) => {
