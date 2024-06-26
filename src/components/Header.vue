@@ -59,11 +59,15 @@ export default {
 .column {
   display: flex;
   align-items: center;
+  font-size:30px;
 }
 .active-count {
   color: green;
 }
 .inactive-count {
   color: red;
+}
+.right {
+  font-size:30px;
 }
 </style>
